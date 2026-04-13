@@ -1,0 +1,22 @@
+type WorkspacePlan = 
+ variant {
+   free;
+   pro;
+ };
+type UserRole = 
+ variant {
+   admin;
+   guest;
+   user;
+ };
+service : {
+  _initializeAccessControl: () -> ();
+  adminGetUserWorkspacePlan: (user: principal) -> (WorkspacePlan) query;
+  assignCallerUserRole: (user: principal, role: UserRole) -> ();
+  getCallerUserRole: () -> (UserRole) query;
+  getCallerWorkspacePlan: () -> (WorkspacePlan) query;
+  getUsername: () -> (opt text) query;
+  isCallerAdmin: () -> (bool) query;
+  selectWorkspacePlan: (plan: WorkspacePlan) -> ();
+  setUsername: (name: text) -> ();
+}
