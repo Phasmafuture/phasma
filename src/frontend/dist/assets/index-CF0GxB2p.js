@@ -24519,7 +24519,7 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$w = [
+const __iconNode$v = [
   [
     "path",
     {
@@ -24528,18 +24528,7 @@ const __iconNode$w = [
     }
   ]
 ];
-const Activity = createLucideIcon("activity", __iconNode$w);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$v = [
-  ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
-  ["path", { d: "M19 12H5", key: "x3x0zl" }]
-];
-const ArrowLeft = createLucideIcon("arrow-left", __iconNode$v);
+const Activity = createLucideIcon("activity", __iconNode$v);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24547,6 +24536,17 @@ const ArrowLeft = createLucideIcon("arrow-left", __iconNode$v);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$u = [
+  ["path", { d: "m12 19-7-7 7-7", key: "1l729n" }],
+  ["path", { d: "M19 12H5", key: "x3x0zl" }]
+];
+const ArrowLeft = createLucideIcon("arrow-left", __iconNode$u);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$t = [
   [
     "path",
     {
@@ -24569,14 +24569,14 @@ const __iconNode$u = [
   ["path", { d: "M6 18a4 4 0 0 1-1.967-.516", key: "2e4loj" }],
   ["path", { d: "M19.967 17.484A4 4 0 0 1 18 18", key: "159ez6" }]
 ];
-const Brain = createLucideIcon("brain", __iconNode$u);
+const Brain = createLucideIcon("brain", __iconNode$t);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$t = [
+const __iconNode$s = [
   [
     "path",
     {
@@ -24586,20 +24586,7 @@ const __iconNode$t = [
   ],
   ["circle", { cx: "12", cy: "13", r: "3", key: "1vg3eu" }]
 ];
-const Camera$1 = createLucideIcon("camera", __iconNode$t);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$s = [
-  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
-  ["path", { d: "M18 17V9", key: "2bz60n" }],
-  ["path", { d: "M13 17V5", key: "1frdt8" }],
-  ["path", { d: "M8 17v-3", key: "17ska0" }]
-];
-const ChartColumn = createLucideIcon("chart-column", __iconNode$s);
+const Camera$1 = createLucideIcon("camera", __iconNode$s);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24608,45 +24595,46 @@ const ChartColumn = createLucideIcon("chart-column", __iconNode$s);
  */
 const __iconNode$r = [
   ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
+  ["path", { d: "M18 17V9", key: "2bz60n" }],
+  ["path", { d: "M13 17V5", key: "1frdt8" }],
+  ["path", { d: "M8 17v-3", key: "17ska0" }]
+];
+const ChartColumn = createLucideIcon("chart-column", __iconNode$r);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$q = [
+  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
   ["path", { d: "m19 9-5 5-4-4-3 3", key: "2osh9i" }]
 ];
-const ChartLine = createLucideIcon("chart-line", __iconNode$r);
+const ChartLine = createLucideIcon("chart-line", __iconNode$q);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$q = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
-const Check = createLucideIcon("check", __iconNode$q);
+const __iconNode$p = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
+const Check = createLucideIcon("check", __iconNode$p);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$p = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
-const ChevronDown = createLucideIcon("chevron-down", __iconNode$p);
+const __iconNode$o = [["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]];
+const ChevronDown = createLucideIcon("chevron-down", __iconNode$o);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$o = [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]];
-const ChevronUp = createLucideIcon("chevron-up", __iconNode$o);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$n = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
-  ["line", { x1: "12", x2: "12.01", y1: "16", y2: "16", key: "4dfq90" }]
-];
-const CircleAlert = createLucideIcon("circle-alert", __iconNode$n);
+const __iconNode$n = [["path", { d: "m18 15-6-6-6 6", key: "153udz" }]];
+const ChevronUp = createLucideIcon("chevron-up", __iconNode$n);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24655,9 +24643,10 @@ const CircleAlert = createLucideIcon("circle-alert", __iconNode$n);
  */
 const __iconNode$m = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
+  ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
+  ["line", { x1: "12", x2: "12.01", y1: "16", y2: "16", key: "4dfq90" }]
 ];
-const CircleCheck = createLucideIcon("circle-check", __iconNode$m);
+const CircleAlert = createLucideIcon("circle-alert", __iconNode$m);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24666,9 +24655,9 @@ const CircleCheck = createLucideIcon("circle-check", __iconNode$m);
  */
 const __iconNode$l = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polygon", { points: "10 8 16 12 10 16 10 8", key: "1cimsy" }]
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
 ];
-const CirclePlay = createLucideIcon("circle-play", __iconNode$l);
+const CircleCheck = createLucideIcon("circle-check", __iconNode$l);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24677,9 +24666,9 @@ const CirclePlay = createLucideIcon("circle-play", __iconNode$l);
  */
 const __iconNode$k = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+  ["polygon", { points: "10 8 16 12 10 16 10 8", key: "1cimsy" }]
 ];
-const Clock$1 = createLucideIcon("clock", __iconNode$k);
+const CirclePlay = createLucideIcon("circle-play", __iconNode$k);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24687,6 +24676,17 @@ const Clock$1 = createLucideIcon("clock", __iconNode$k);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$j = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+];
+const Clock$1 = createLucideIcon("clock", __iconNode$j);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$i = [
   [
     "path",
     {
@@ -24696,20 +24696,7 @@ const __iconNode$j = [
   ],
   ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
 ];
-const Eye = createLucideIcon("eye", __iconNode$j);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$i = [
-  ["circle", { cx: "18", cy: "18", r: "3", key: "1xkwt0" }],
-  ["circle", { cx: "6", cy: "6", r: "3", key: "1lh9wr" }],
-  ["path", { d: "M13 6h3a2 2 0 0 1 2 2v7", key: "1yeb86" }],
-  ["path", { d: "M11 18H8a2 2 0 0 1-2-2V9", key: "19pyzm" }]
-];
-const GitCompare = createLucideIcon("git-compare", __iconNode$i);
+const Eye = createLucideIcon("eye", __iconNode$i);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24717,6 +24704,19 @@ const GitCompare = createLucideIcon("git-compare", __iconNode$i);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$h = [
+  ["circle", { cx: "18", cy: "18", r: "3", key: "1xkwt0" }],
+  ["circle", { cx: "6", cy: "6", r: "3", key: "1lh9wr" }],
+  ["path", { d: "M13 6h3a2 2 0 0 1 2 2v7", key: "1yeb86" }],
+  ["path", { d: "M11 18H8a2 2 0 0 1-2-2V9", key: "19pyzm" }]
+];
+const GitCompare = createLucideIcon("git-compare", __iconNode$h);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$g = [
   ["path", { d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8", key: "5wwlr5" }],
   [
     "path",
@@ -24726,38 +24726,27 @@ const __iconNode$h = [
     }
   ]
 ];
-const House = createLucideIcon("house", __iconNode$h);
+const House = createLucideIcon("house", __iconNode$g);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$g = [
+const __iconNode$f = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
   ["path", { d: "M12 16v-4", key: "1dtifu" }],
   ["path", { d: "M12 8h.01", key: "e9boi3" }]
 ];
-const Info = createLucideIcon("info", __iconNode$g);
+const Info = createLucideIcon("info", __iconNode$f);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$f = [["path", { d: "M21 12a9 9 0 1 1-6.219-8.56", key: "13zald" }]];
-const LoaderCircle = createLucideIcon("loader-circle", __iconNode$f);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$e = [
-  ["rect", { width: "18", height: "11", x: "3", y: "11", rx: "2", ry: "2", key: "1w4ew1" }],
-  ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
-];
-const Lock = createLucideIcon("lock", __iconNode$e);
+const __iconNode$e = [["path", { d: "M21 12a9 9 0 1 1-6.219-8.56", key: "13zald" }]];
+const LoaderCircle = createLucideIcon("loader-circle", __iconNode$e);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24765,11 +24754,10 @@ const Lock = createLucideIcon("lock", __iconNode$e);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$d = [
-  ["path", { d: "m10 17 5-5-5-5", key: "1bsop3" }],
-  ["path", { d: "M15 12H3", key: "6jk70r" }],
-  ["path", { d: "M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4", key: "u53s6r" }]
+  ["rect", { width: "18", height: "11", x: "3", y: "11", rx: "2", ry: "2", key: "1w4ew1" }],
+  ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
 ];
-const LogIn = createLucideIcon("log-in", __iconNode$d);
+const Lock = createLucideIcon("lock", __iconNode$d);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24777,11 +24765,11 @@ const LogIn = createLucideIcon("log-in", __iconNode$d);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$c = [
-  ["path", { d: "m16 17 5-5-5-5", key: "1bji2h" }],
-  ["path", { d: "M21 12H9", key: "dn1m92" }],
-  ["path", { d: "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4", key: "1uf3rs" }]
+  ["path", { d: "m10 17 5-5-5-5", key: "1bsop3" }],
+  ["path", { d: "M15 12H3", key: "6jk70r" }],
+  ["path", { d: "M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4", key: "u53s6r" }]
 ];
-const LogOut = createLucideIcon("log-out", __iconNode$c);
+const LogIn = createLucideIcon("log-in", __iconNode$c);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24789,11 +24777,11 @@ const LogOut = createLucideIcon("log-out", __iconNode$c);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$b = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
+  ["path", { d: "m16 17 5-5-5-5", key: "1bji2h" }],
+  ["path", { d: "M21 12H9", key: "dn1m92" }],
+  ["path", { d: "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4", key: "1uf3rs" }]
 ];
-const Menu = createLucideIcon("menu", __iconNode$b);
+const LogOut = createLucideIcon("log-out", __iconNode$b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24801,29 +24789,30 @@ const Menu = createLucideIcon("menu", __iconNode$b);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$a = [
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
+];
+const Menu = createLucideIcon("menu", __iconNode$a);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$9 = [
   ["rect", { x: "14", y: "4", width: "4", height: "16", rx: "1", key: "zuxfzm" }],
   ["rect", { x: "6", y: "4", width: "4", height: "16", rx: "1", key: "1okwgv" }]
 ];
-const Pause = createLucideIcon("pause", __iconNode$a);
+const Pause = createLucideIcon("pause", __iconNode$9);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$9 = [["polygon", { points: "6 3 20 12 6 21 6 3", key: "1oa8hb" }]];
-const Play = createLucideIcon("play", __iconNode$9);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$8 = [
-  ["path", { d: "M5 12h14", key: "1ays0h" }],
-  ["path", { d: "M12 5v14", key: "s699le" }]
-];
-const Plus = createLucideIcon("plus", __iconNode$8);
+const __iconNode$8 = [["polygon", { points: "6 3 20 12 6 21 6 3", key: "1oa8hb" }]];
+const Play = createLucideIcon("play", __iconNode$8);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24831,10 +24820,10 @@ const Plus = createLucideIcon("plus", __iconNode$8);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$7 = [
-  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
-  ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
+  ["path", { d: "M5 12h14", key: "1ays0h" }],
+  ["path", { d: "M12 5v14", key: "s699le" }]
 ];
-const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$7);
+const Plus = createLucideIcon("plus", __iconNode$7);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24842,19 +24831,10 @@ const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$7);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$6 = [
-  [
-    "path",
-    {
-      d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
-      key: "4pj2yx"
-    }
-  ],
-  ["path", { d: "M20 3v4", key: "1olli1" }],
-  ["path", { d: "M22 5h-4", key: "1gvqau" }],
-  ["path", { d: "M4 17v2", key: "vumght" }],
-  ["path", { d: "M5 18H3", key: "zchphs" }]
+  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
+  ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
 ];
-const Sparkles = createLucideIcon("sparkles", __iconNode$6);
+const RotateCcw = createLucideIcon("rotate-ccw", __iconNode$6);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -31190,14 +31170,15 @@ function useDemoRuns() {
   reactExports.useEffect(() => {
     saveRuns(runs);
   }, [runs]);
-  const createRun = (name, description) => {
+  const createRun = (name, description, modelType = "surgical") => {
     const newRun = {
       id: `run-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
       name,
       description,
       status: "completed",
       totalEpisodes: 1e3,
-      createdAt: (/* @__PURE__ */ new Date()).toISOString()
+      createdAt: (/* @__PURE__ */ new Date()).toISOString(),
+      modelType
     };
     setRuns((prev) => [newRun, ...prev]);
   };
@@ -31487,7 +31468,7 @@ function Dashboard() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-center justify-center text-center mb-12 sm:mb-16 space-y-4 sm:space-y-6", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(PhasmaLogo, { size: "large" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight", children: "PHASMA" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg sm:text-xl text-gray-400 max-w-2xl px-4", children: "Decentralized platform for surgical robotics reinforcement learning" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg sm:text-xl text-gray-400 max-w-2xl px-4", children: "Decentralized platform for surgical and humanoid robotics reinforcement learning" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-lg", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-2 h-2 bg-green-500 rounded-full animate-pulse" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm text-gray-300", children: "Simulation Demo Environment" })
@@ -31497,7 +31478,7 @@ function Dashboard() {
       /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "bg-white/5 border-white/10 hover:bg-white/10 transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(CardHeader, { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(Brain, { className: "w-8 h-8 text-white mb-2" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(CardTitle, { className: "text-white", children: "RL Training" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(CardDescription, { className: "text-gray-400", children: "Simulated reinforcement learning training runs" })
+        /* @__PURE__ */ jsxRuntimeExports.jsx(CardDescription, { className: "text-gray-400", children: "Surgical robot and humanoid agent RL training simulations" })
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "bg-white/5 border-white/10 hover:bg-white/10 transition-colors", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(CardHeader, { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(ChartLine, { className: "w-8 h-8 text-white mb-2" }),
@@ -89255,23 +89236,212 @@ function PatientSideCart() {
 function WorkSurface() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("group", { position: [0, 0, 0], children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, -0.05, 0], receiveShadow: true, children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [3, 0.1, 3] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [6, 0.1, 3] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("meshStandardMaterial", { color: "#1f2937", metalness: 0.3, roughness: 0.7 })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "gridHelper",
       {
-        args: [3, 12, "#374151", "#1f2937"],
+        args: [6, 18, "#374151", "#1f2937"],
         position: [0, 0.01, 0]
       }
     )
   ] });
 }
+function HumanoidFigure({ playback, totalEpisodes }) {
+  const groupRef = reactExports.useRef(null);
+  const torsoRef = reactExports.useRef(null);
+  const headRef = reactExports.useRef(null);
+  const upperArmLRef = reactExports.useRef(null);
+  const lowerArmLRef = reactExports.useRef(null);
+  const upperArmRRef = reactExports.useRef(null);
+  const lowerArmRRef = reactExports.useRef(null);
+  const handLRef = reactExports.useRef(null);
+  const handRRef = reactExports.useRef(null);
+  const upperLegLRef = reactExports.useRef(null);
+  const upperLegRRef = reactExports.useRef(null);
+  const lowerLegLRef = reactExports.useRef(null);
+  const lowerLegRRef = reactExports.useRef(null);
+  const timeRef = reactExports.useRef(0);
+  const phase = reactExports.useMemo(() => {
+    const pose = computeWorkspacePose(totalEpisodes, playback.currentIndex);
+    return pose.phase;
+  }, [totalEpisodes, playback.currentIndex]);
+  useFrame((_, delta) => {
+    const speed = playback.isPlaying ? playback.speed : 0;
+    timeRef.current += delta * speed;
+    const t = timeRef.current;
+    const lf = 0.08;
+    let shoulderTarget = 0;
+    let elbowTarget = 0;
+    let bobOffset = 0;
+    if (phase === "idle") {
+      shoulderTarget = 0.15;
+      elbowTarget = 0.2;
+      bobOffset = Math.sin(t * 1.2) * 0.015;
+    } else if (phase === "approach") {
+      shoulderTarget = -0.9;
+      elbowTarget = -0.5;
+      bobOffset = 0;
+    } else if (phase === "contact") {
+      shoulderTarget = -1.1;
+      elbowTarget = -0.2;
+      bobOffset = 0;
+    } else {
+      shoulderTarget = 0.3;
+      elbowTarget = 0.4;
+      bobOffset = Math.sin(t * 0.8) * 0.01;
+    }
+    if (torsoRef.current) {
+      torsoRef.current.position.y = MathUtils.lerp(
+        torsoRef.current.position.y,
+        0.72 + bobOffset,
+        lf
+      );
+    }
+    if (headRef.current) {
+      headRef.current.position.y = MathUtils.lerp(
+        headRef.current.position.y,
+        1.45 + bobOffset,
+        lf
+      );
+    }
+    if (upperArmLRef.current) {
+      upperArmLRef.current.rotation.x = MathUtils.lerp(
+        upperArmLRef.current.rotation.x,
+        shoulderTarget,
+        lf
+      );
+    }
+    if (upperArmRRef.current) {
+      upperArmRRef.current.rotation.x = MathUtils.lerp(
+        upperArmRRef.current.rotation.x,
+        shoulderTarget,
+        lf
+      );
+    }
+    if (lowerArmLRef.current) {
+      lowerArmLRef.current.rotation.x = MathUtils.lerp(
+        lowerArmLRef.current.rotation.x,
+        elbowTarget,
+        lf
+      );
+    }
+    if (lowerArmRRef.current) {
+      lowerArmRRef.current.rotation.x = MathUtils.lerp(
+        lowerArmRRef.current.rotation.x,
+        elbowTarget,
+        lf
+      );
+    }
+    if (torsoRef.current && phase === "idle") {
+      const breath = 1 + Math.sin(t * 0.9) * 0.012;
+      torsoRef.current.scale.x = breath;
+      torsoRef.current.scale.z = breath;
+    }
+  });
+  const wfMat = /* @__PURE__ */ jsxRuntimeExports.jsx("meshBasicMaterial", { color: "#cccccc", wireframe: true });
+  const wfMatDim = /* @__PURE__ */ jsxRuntimeExports.jsx("meshBasicMaterial", { color: "#888888", wireframe: true });
+  return (
+    // Positioned at x:-2.5, separate space from surgical robot on right
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("group", { ref: groupRef, position: [-2.5, 0, 0], children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [-0.12, 0.06, 0.05], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.1, 0.06, 0.2] }),
+        wfMatDim
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0.12, 0.06, 0.05], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.1, 0.06, 0.2] }),
+        wfMatDim
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("group", { ref: lowerLegLRef, position: [-0.12, 0.09, 0], children: /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, 0.2, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.09, 0.38, 0.09] }),
+        wfMatDim
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("group", { ref: lowerLegRRef, position: [0.12, 0.09, 0], children: /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, 0.2, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.09, 0.38, 0.09] }),
+        wfMatDim
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("group", { ref: upperLegLRef, position: [-0.12, 0.48, 0], children: /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, 0.2, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.11, 0.38, 0.11] }),
+        wfMatDim
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("group", { ref: upperLegRRef, position: [0.12, 0.48, 0], children: /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, 0.2, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.11, 0.38, 0.11] }),
+        wfMatDim
+      ] }) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, 0.62, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.32, 0.12, 0.18] }),
+        wfMat
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { ref: torsoRef, position: [0, 0.72, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.36, 0.48, 0.2] }),
+        wfMat
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, 1.22, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("cylinderGeometry", { args: [0.055, 0.065, 0.14, 8] }),
+        wfMat
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { ref: headRef, position: [0, 1.45, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.22, 0.26, 0.22] }),
+        wfMat
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [-0.24, 1.1, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("sphereGeometry", { args: [0.07, 8, 8] }),
+        wfMat
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0.24, 1.1, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("sphereGeometry", { args: [0.07, 8, 8] }),
+        wfMat
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("group", { ref: upperArmLRef, position: [-0.24, 1.02, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, -0.18, 0], children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.08, 0.34, 0.08] }),
+          wfMat
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, -0.37, 0], children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("sphereGeometry", { args: [0.055, 8, 8] }),
+          wfMat
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("group", { ref: lowerArmLRef, position: [0, -0.37, 0], children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, -0.16, 0], children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.065, 0.3, 0.065] }),
+            wfMat
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { ref: handLRef, position: [0, -0.33, 0], children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.09, 0.1, 0.06] }),
+            wfMat
+          ] })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("group", { ref: upperArmRRef, position: [0.24, 1.02, 0], children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, -0.18, 0], children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.08, 0.34, 0.08] }),
+          wfMat
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, -0.37, 0], children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("sphereGeometry", { args: [0.055, 8, 8] }),
+          wfMat
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("group", { ref: lowerArmRRef, position: [0, -0.37, 0], children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { position: [0, -0.16, 0], children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.065, 0.3, 0.065] }),
+            wfMat
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("mesh", { ref: handRRef, position: [0, -0.33, 0], children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("boxGeometry", { args: [0.09, 0.1, 0.06] }),
+            wfMat
+          ] })
+        ] })
+      ] })
+    ] })
+  );
+}
 function Scene2({
   playback,
   totalEpisodes,
   robotControls,
-  onContactPointsUpdate
+  onContactPointsUpdate,
+  modelType = "surgical"
 }) {
   const endEffectorPositions = reactExports.useRef(/* @__PURE__ */ new Map());
   const tissueCenter = reactExports.useMemo(() => new Vector3(0.7, 0.15, 0.5), []);
@@ -89283,7 +89453,7 @@ function Scene2({
   };
   const contactPoints = reactExports.useMemo(() => {
     const contacts = [];
-    if (targetPose.phase !== "contact") {
+    if (targetPose.phase !== "contact" || modelType !== "surgical") {
       return contacts;
     }
     for (const armId of ["arm1", "arm2", "arm3"]) {
@@ -89292,16 +89462,14 @@ function Scene2({
         armPose.endEffectorPosition,
         tissueCenter,
         0.25,
-        // tissue radius
         0.3
-        // tissue height
       );
       if (contact) {
         contacts.push(contact);
       }
     }
     return contacts;
-  }, [targetPose, tissueCenter]);
+  }, [targetPose, tissueCenter, modelType]);
   useFrame(() => {
     onContactPointsUpdate(contactPoints);
   });
@@ -89319,51 +89487,59 @@ function Scene2({
     ),
     /* @__PURE__ */ jsxRuntimeExports.jsx("pointLight", { position: [-3, 4, -3], intensity: 0.3, color: "#ffffff" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(WorkSurface, {}),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(PatientSideCart, {}),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      DaVinciArm,
-      {
-        playback,
-        totalEpisodes,
-        armId: "arm1",
-        position: [0.25, 1.04, 0],
-        robotControls,
-        onEndEffectorUpdate: handleEndEffectorUpdate
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      DaVinciArm,
-      {
-        playback,
-        totalEpisodes,
-        armId: "arm2",
-        position: [-0.15, 1.04, 0.2],
-        robotControls,
-        onEndEffectorUpdate: handleEndEffectorUpdate
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      DaVinciArm,
-      {
-        playback,
-        totalEpisodes,
-        armId: "arm3",
-        position: [-0.15, 1.04, -0.2],
-        robotControls,
-        onEndEffectorUpdate: handleEndEffectorUpdate
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      DeformableTissue,
-      {
-        position: [0.7, 0.15, 0.5],
-        contactPoints
-      }
-    )
+    modelType === "surgical" ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(PatientSideCart, {}),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        DaVinciArm,
+        {
+          playback,
+          totalEpisodes,
+          armId: "arm1",
+          position: [0.25, 1.04, 0],
+          robotControls,
+          onEndEffectorUpdate: handleEndEffectorUpdate
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        DaVinciArm,
+        {
+          playback,
+          totalEpisodes,
+          armId: "arm2",
+          position: [-0.15, 1.04, 0.2],
+          robotControls,
+          onEndEffectorUpdate: handleEndEffectorUpdate
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        DaVinciArm,
+        {
+          playback,
+          totalEpisodes,
+          armId: "arm3",
+          position: [-0.15, 1.04, -0.2],
+          robotControls,
+          onEndEffectorUpdate: handleEndEffectorUpdate
+        }
+      ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        DeformableTissue,
+        {
+          position: [0.7, 0.15, 0.5],
+          contactPoints
+        }
+      )
+    ] }) : /* @__PURE__ */ jsxRuntimeExports.jsx(HumanoidFigure, { playback, totalEpisodes })
   ] });
 }
 const Workspace3D = reactExports.forwardRef(
-  ({ playback, totalEpisodes, robotControls, onCameraReset }, ref) => {
+  ({
+    playback,
+    totalEpisodes,
+    robotControls,
+    onCameraReset,
+    modelType = "surgical"
+  }, ref) => {
     const controlsRef = reactExports.useRef(null);
     const contactPointsRef = reactExports.useRef([]);
     const canvasRef = reactExports.useRef(null);
@@ -89394,6 +89570,8 @@ const Workspace3D = reactExports.forwardRef(
     const handleContactPointsUpdate = (contacts) => {
       contactPointsRef.current = contacts;
     };
+    const cameraPosition = modelType === "humanoid" ? [-1.5, 2.5, 4.5] : [3, 3, 3];
+    const orbitTarget = modelType === "humanoid" ? [-2.5, 0.8, 0] : [0, 0.5, 0];
     return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-full h-[500px] bg-black rounded-lg overflow-hidden border border-white/10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
       Canvas,
       {
@@ -89403,7 +89581,7 @@ const Workspace3D = reactExports.forwardRef(
           canvasRef.current = gl.domElement;
         },
         children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(PerspectiveCamera2, { makeDefault: true, position: [3, 3, 3], fov: 50 }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(PerspectiveCamera2, { makeDefault: true, position: cameraPosition, fov: 50 }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             OrbitControls2,
             {
@@ -89411,9 +89589,9 @@ const Workspace3D = reactExports.forwardRef(
               enableDamping: true,
               dampingFactor: 0.05,
               minDistance: 2,
-              maxDistance: 8,
+              maxDistance: 10,
               maxPolarAngle: Math.PI / 2,
-              target: [0, 0.5, 0]
+              target: orbitTarget
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -89422,7 +89600,8 @@ const Workspace3D = reactExports.forwardRef(
               playback,
               totalEpisodes,
               robotControls,
-              onContactPointsUpdate: handleContactPointsUpdate
+              onContactPointsUpdate: handleContactPointsUpdate,
+              modelType
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsx("color", { attach: "background", args: ["#000000"] })
@@ -89631,6 +89810,7 @@ function RunDetail() {
   const { runId } = useParams({ from: "/runs/$runId" });
   const { runs } = useDemoRuns();
   const run2 = runs.find((r2) => r2.id === runId);
+  const modelType = (run2 == null ? void 0 : run2.modelType) ?? "surgical";
   reactExports.useEffect(() => {
     if (run2) {
       recordActivity("run_viewed", { runId, runName: run2.name });
@@ -89791,7 +89971,7 @@ function RunDetail() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(CardHeader, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(CardTitle, { className: "text-white", children: "3D Workspace" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(CardDescription, { className: "text-gray-400", children: "Interactive surgical robot visualization" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(CardDescription, { className: "text-gray-400", children: modelType === "humanoid" ? "Humanoid agent visualization" : "Interactive surgical robot visualization" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs(
             Button,
@@ -89813,18 +89993,41 @@ function RunDetail() {
             ref: workspace3DRef,
             playback,
             totalEpisodes: run2.totalEpisodes,
-            robotControls
+            robotControls,
+            modelType
           }
         ) })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
+      modelType === "surgical" ? /* @__PURE__ */ jsxRuntimeExports.jsx(
         RobotControlsPanel,
         {
           controls: robotControls,
           onControlsChange: setRobotControls,
           onReset: handleResetRobotControls
         }
-      )
+      ) : /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "bg-white/5 border-white/10", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(CardHeader, { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CardTitle, { className: "text-white text-base", children: "Humanoid Agent" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CardDescription, { className: "text-gray-400", children: "Full-body humanoid RL agent. Arms and posture animate in sync with the training playback phases." })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(CardContent, { className: "space-y-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-3 bg-white/5 border border-white/10 rounded-lg", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-400 font-medium mb-1 uppercase tracking-widest", children: "Active Model" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-white", children: "Humanoid RL Model" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-3 bg-white/5 border border-white/10 rounded-lg", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-400 font-medium mb-1 uppercase tracking-widest", children: "Animation Phases" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 gap-1.5", children: ["idle", "approach", "contact", "retract"].map((ph) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "px-2 py-1 rounded bg-white/5 border border-white/10",
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs text-gray-300 capitalize", children: ph })
+              },
+              ph
+            )) })
+          ] })
+        ] })
+      ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "bg-white/5 border-white/10", children: [
@@ -89911,38 +90114,257 @@ function RunDetail() {
     ] }) }) })
   ] }) });
 }
-const DEFAULT_MODEL_NAME = "Default Surgical RL Model";
+const MODELS = [
+  {
+    id: "surgical",
+    name: "Default Surgical RL Model",
+    description: "Three-arm da Vinci-style robotic system trained on laparoscopic surgical tasks with tool-tissue interaction feedback.",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "svg",
+      {
+        viewBox: "0 0 40 40",
+        fill: "none",
+        className: "w-8 h-8",
+        "aria-hidden": "true",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "20", cy: "8", r: "3", stroke: "currentColor", strokeWidth: "1.5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "11",
+              x2: "20",
+              y2: "18",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "20", cy: "20", r: "2", stroke: "currentColor", strokeWidth: "1.5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "22",
+              x2: "14",
+              y2: "30",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "22",
+              x2: "26",
+              y2: "30",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "14",
+              y1: "30",
+              x2: "12",
+              y2: "35",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "14",
+              y1: "30",
+              x2: "16",
+              y2: "35",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "26",
+              y1: "30",
+              x2: "24",
+              y2: "35",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "26",
+              y1: "30",
+              x2: "28",
+              y2: "35",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          )
+        ]
+      }
+    )
+  },
+  {
+    id: "humanoid",
+    name: "Humanoid RL Model",
+    description: "Full-body humanoid agent trained on dexterous manipulation tasks. Low-poly wireframe visualization with bilateral arm symmetry.",
+    icon: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "svg",
+      {
+        viewBox: "0 0 40 40",
+        fill: "none",
+        className: "w-8 h-8",
+        "aria-hidden": "true",
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "20", cy: "7", r: "4", stroke: "currentColor", strokeWidth: "1.5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "11",
+              x2: "20",
+              y2: "24",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "14",
+              x2: "12",
+              y2: "20",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "14",
+              x2: "28",
+              y2: "20",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "12",
+              y1: "20",
+              x2: "10",
+              y2: "26",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "28",
+              y1: "20",
+              x2: "30",
+              y2: "26",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "24",
+              x2: "15",
+              y2: "34",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "line",
+            {
+              x1: "20",
+              y1: "24",
+              x2: "25",
+              y2: "34",
+              stroke: "currentColor",
+              strokeWidth: "1.5"
+            }
+          )
+        ]
+      }
+    )
+  }
+];
 function CreateDemoRunDialog({
   open,
   onOpenChange,
   onCreateRun
 }) {
+  const [selectedModel, setSelectedModel] = reactExports.useState(
+    "surgical"
+  );
   const handleCreate = () => {
-    onCreateRun(DEFAULT_MODEL_NAME, "");
+    const model = MODELS.find((m2) => m2.id === selectedModel);
+    onCreateRun(model.name, "", selectedModel);
     onOpenChange(false);
   };
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(Dialog, { open, onOpenChange, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(DialogContent, { className: "bg-zinc-950 border-white/20 text-white", children: [
+  const selected = MODELS.find((m2) => m2.id === selectedModel);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(Dialog, { open, onOpenChange, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(DialogContent, { className: "bg-zinc-950 border-white/20 text-white max-w-lg", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(DialogHeader, { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(DialogTitle, { className: "text-white", children: "Create New Demo Run" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(DialogDescription, { className: "text-gray-400", children: "Create a simulated training run with precomputed metrics for visualization" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx(DialogDescription, { className: "text-gray-400", children: "Select a model for your simulated training run" })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4 py-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 p-4 bg-white/5 border border-white/10 rounded-lg", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "w-5 h-5 text-white flex-shrink-0 mt-0.5" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm font-medium text-white mb-1", children: "Using Predefined Model" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-gray-400", children: [
-            "This demo run will use the",
-            " ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-medium text-white", children: DEFAULT_MODEL_NAME }),
-            " ",
-            "configuration."
-          ] })
-        ] })
-      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 gap-3", children: MODELS.map((model) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "button",
+        {
+          type: "button",
+          "data-ocid": `model_select.${model.id}`,
+          onClick: () => setSelectedModel(model.id),
+          className: [
+            "flex flex-col items-center gap-3 p-4 rounded-lg border text-center transition-all duration-200 cursor-pointer",
+            selectedModel === model.id ? "border-white bg-white/10 shadow-[0_0_0_1px_rgba(255,255,255,0.3)]" : "border-white/15 bg-white/3 hover:bg-white/7 hover:border-white/30"
+          ].join(" "),
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: [
+                  "flex items-center justify-center w-12 h-12 rounded-md",
+                  selectedModel === model.id ? "text-white" : "text-gray-400"
+                ].join(" "),
+                children: model.icon
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "span",
+              {
+                className: [
+                  "text-sm font-medium leading-snug",
+                  selectedModel === model.id ? "text-white" : "text-gray-400"
+                ].join(" "),
+                children: model.name
+              }
+            ),
+            selectedModel === model.id && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-1.5 h-1.5 rounded-full bg-white" })
+          ]
+        },
+        model.id
+      )) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "p-3 bg-white/5 border border-white/10 rounded-lg min-h-[56px]", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-400 leading-relaxed", children: selected.description }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-2 p-3 bg-white/5 border border-white/10 rounded-lg", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(CircleAlert, { className: "w-5 h-5 text-gray-400 flex-shrink-0 mt-0.5" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-400", children: "This will create a demo run with simulated data. No actual RL training will be performed." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx(CircleAlert, { className: "w-4 h-4 text-gray-500 flex-shrink-0 mt-0.5" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs text-gray-400", children: "Demo run only — simulated data. No actual RL training is performed." })
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs(DialogFooter, { children: [
@@ -89952,6 +90374,7 @@ function CreateDemoRunDialog({
           type: "button",
           variant: "outline",
           onClick: () => onOpenChange(false),
+          "data-ocid": "create_run.cancel_button",
           className: "border-white/20 text-white hover:bg-white/10",
           children: "Cancel"
         }
@@ -89961,6 +90384,7 @@ function CreateDemoRunDialog({
         {
           type: "button",
           onClick: handleCreate,
+          "data-ocid": "create_run.submit_button",
           className: "bg-white text-black hover:bg-gray-200",
           children: "Create Demo Run"
         }
@@ -90051,9 +90475,9 @@ function TrainingRuns() {
   reactExports.useEffect(() => {
     recordActivity("page_view", { page: "training_runs" });
   }, []);
-  const handleCreateRun = (name, description) => {
-    createRun(name, description);
-    recordActivity("run_created", { name, description });
+  const handleCreateRun = (name, description, modelType = "surgical") => {
+    createRun(name, description, modelType);
+    recordActivity("run_created", { name, description, modelType });
     setIsCreateDialogOpen(false);
   };
   const handleViewRun = (runId) => {
@@ -90096,7 +90520,7 @@ function TrainingRuns() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "bg-white/5 border-white/10", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs(CardHeader, { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(CardTitle, { className: "text-white", children: "All Training Runs" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CardDescription, { className: "text-gray-400", children: "Simulated training runs with precomputed metrics" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CardDescription, { className: "text-gray-400", children: "Surgical and humanoid simulated training runs with precomputed metrics" })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(CardContent, { children: runs.length === 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center py-12", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(CirclePlay, { className: "w-12 h-12 text-gray-600 mx-auto mb-4" }),
@@ -90113,6 +90537,7 @@ function TrainingRuns() {
         ] }) : /* @__PURE__ */ jsxRuntimeExports.jsxs(Table, { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(TableHeader, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(TableRow, { className: "border-white/10 hover:bg-transparent", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(TableHead, { className: "text-gray-400", children: "Name" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(TableHead, { className: "text-gray-400", children: "Model" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(TableHead, { className: "text-gray-400", children: "Status" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(TableHead, { className: "text-gray-400", children: "Episodes" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(TableHead, { className: "text-gray-400", children: "Created" }),
@@ -90127,6 +90552,7 @@ function TrainingRuns() {
                   /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-medium text-white", children: run2.name }),
                   run2.description && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-sm text-gray-400", children: run2.description })
                 ] }) }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(TableCell, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs px-2 py-0.5 rounded border border-white/15 text-gray-300 bg-white/5 capitalize", children: run2.modelType ?? "surgical" }) }),
                 /* @__PURE__ */ jsxRuntimeExports.jsx(TableCell, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
                   Badge,
                   {

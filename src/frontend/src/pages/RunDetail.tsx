@@ -42,6 +42,7 @@ export default function RunDetail() {
   const { runId } = useParams({ from: "/runs/$runId" });
   const { runs } = useDemoRuns();
   const run = runs.find((r) => r.id === runId);
+  const modelType = run?.modelType ?? "surgical";
 
   // Record page view
   useEffect(() => {
@@ -232,7 +233,9 @@ export default function RunDetail() {
                 <div>
                   <CardTitle className="text-white">3D Workspace</CardTitle>
                   <CardDescription className="text-gray-400">
-                    Interactive surgical robot visualization
+                    {modelType === "humanoid"
+                      ? "Humanoid agent visualization"
+                      : "Interactive surgical robot visualization"}
                   </CardDescription>
                 </div>
                 <Button
@@ -252,15 +255,55 @@ export default function RunDetail() {
                 playback={playback}
                 totalEpisodes={run.totalEpisodes}
                 robotControls={robotControls}
+                modelType={modelType}
               />
             </CardContent>
           </Card>
 
-          <RobotControlsPanel
-            controls={robotControls}
-            onControlsChange={setRobotControls}
-            onReset={handleResetRobotControls}
-          />
+          {modelType === "surgical" ? (
+            <RobotControlsPanel
+              controls={robotControls}
+              onControlsChange={setRobotControls}
+              onReset={handleResetRobotControls}
+            />
+          ) : (
+            <Card className="bg-white/5 border-white/10">
+              <CardHeader>
+                <CardTitle className="text-white text-base">
+                  Humanoid Agent
+                </CardTitle>
+                <CardDescription className="text-gray-400">
+                  Full-body humanoid RL agent. Arms and posture animate in sync
+                  with the training playback phases.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <div className="p-3 bg-white/5 border border-white/10 rounded-lg">
+                  <p className="text-xs text-gray-400 font-medium mb-1 uppercase tracking-widest">
+                    Active Model
+                  </p>
+                  <p className="text-sm text-white">Humanoid RL Model</p>
+                </div>
+                <div className="p-3 bg-white/5 border border-white/10 rounded-lg">
+                  <p className="text-xs text-gray-400 font-medium mb-1 uppercase tracking-widest">
+                    Animation Phases
+                  </p>
+                  <div className="grid grid-cols-2 gap-1.5">
+                    {["idle", "approach", "contact", "retract"].map((ph) => (
+                      <div
+                        key={ph}
+                        className="px-2 py-1 rounded bg-white/5 border border-white/10"
+                      >
+                        <span className="text-xs text-gray-300 capitalize">
+                          {ph}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          )}
         </div>
 
         {/* Metrics Charts */}

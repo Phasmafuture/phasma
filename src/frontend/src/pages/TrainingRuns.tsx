@@ -32,9 +32,13 @@ export default function TrainingRuns() {
     recordActivity("page_view", { page: "training_runs" });
   }, []);
 
-  const handleCreateRun = (name: string, description: string) => {
-    createRun(name, description);
-    recordActivity("run_created", { name, description });
+  const handleCreateRun = (
+    name: string,
+    description: string,
+    modelType: "surgical" | "humanoid" = "surgical",
+  ) => {
+    createRun(name, description, modelType);
+    recordActivity("run_created", { name, description, modelType });
     setIsCreateDialogOpen(false);
   };
 
@@ -110,7 +114,8 @@ export default function TrainingRuns() {
           <CardHeader>
             <CardTitle className="text-white">All Training Runs</CardTitle>
             <CardDescription className="text-gray-400">
-              Simulated training runs with precomputed metrics
+              Surgical and humanoid simulated training runs with precomputed
+              metrics
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -131,6 +136,7 @@ export default function TrainingRuns() {
                 <TableHeader>
                   <TableRow className="border-white/10 hover:bg-transparent">
                     <TableHead className="text-gray-400">Name</TableHead>
+                    <TableHead className="text-gray-400">Model</TableHead>
                     <TableHead className="text-gray-400">Status</TableHead>
                     <TableHead className="text-gray-400">Episodes</TableHead>
                     <TableHead className="text-gray-400">Created</TableHead>
@@ -154,6 +160,11 @@ export default function TrainingRuns() {
                             </div>
                           )}
                         </div>
+                      </TableCell>
+                      <TableCell>
+                        <span className="text-xs px-2 py-0.5 rounded border border-white/15 text-gray-300 bg-white/5 capitalize">
+                          {run.modelType ?? "surgical"}
+                        </span>
                       </TableCell>
                       <TableCell>
                         <Badge

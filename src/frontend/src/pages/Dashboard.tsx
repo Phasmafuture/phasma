@@ -21,7 +21,8 @@ export default function Dashboard() {
             PHASMA
           </h1>
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl px-4">
-            Decentralized platform for surgical robotics reinforcement learning
+            Decentralized platform for surgical and humanoid robotics
+            reinforcement learning
           </p>
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-lg">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
@@ -38,7 +39,7 @@ export default function Dashboard() {
               <Brain className="w-8 h-8 text-white mb-2" />
               <CardTitle className="text-white">RL Training</CardTitle>
               <CardDescription className="text-gray-400">
-                Simulated reinforcement learning training runs
+                Surgical robot and humanoid agent RL training simulations
               </CardDescription>
             </CardHeader>
           </Card>

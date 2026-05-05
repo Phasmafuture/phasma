@@ -7,6 +7,7 @@ export interface DemoRun {
   status: "running" | "completed";
   totalEpisodes: number;
   createdAt: string;
+  modelType: "surgical" | "humanoid";
 }
 
 const STORAGE_KEY = "phasma_demo_runs";
@@ -35,7 +36,11 @@ export function useDemoRuns() {
     saveRuns(runs);
   }, [runs]);
 
-  const createRun = (name: string, description: string) => {
+  const createRun = (
+    name: string,
+    description: string,
+    modelType: "surgical" | "humanoid" = "surgical",
+  ) => {
     const newRun: DemoRun = {
       id: `run-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
       name,
@@ -43,6 +48,7 @@ export function useDemoRuns() {
       status: "completed",
       totalEpisodes: 1000,
       createdAt: new Date().toISOString(),
+      modelType,
     };
     setRuns((prev) => [newRun, ...prev]);
   };
